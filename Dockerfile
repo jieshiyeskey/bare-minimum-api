@@ -1,6 +1,4 @@
-# syntax=docker/dockerfile:1
-
-FROM golang:1.16-alpine
+FROM hub.pailoo.io/os/golang:1.16-alpine
 
 WORKDIR /app
 
